@@ -1,0 +1,88 @@
+/* font-family: 'League Spartan', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Code Pro', monospace; */
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --heading:'Playfair Display', serif;
+}
+body{
+    font-family:'League Spartan', sans-serif;
+    background: #fff;
+}
+/* Global styling */
+img{
+    width:100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+hr{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+/* header */
+.top-head{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   background: rgb(46, 46, 46);
+   color: #fff;
+   padding: 20px 30px;
+
+}
+.top-head .fas{
+    font-size: 2em;
+    cursor: pointer;
+
+}
+/* js related styling */
+
+.times-btn{
+    display: none;
+
+}
+.nav-bar{
+    background: rgb(87, 85, 85);
+    /* height: 0;
+    overflow: hidden; */
+}
+.show-nav{
+    height: auto;
+
+}
+
+/* **************************88 */
+
+.nav-bar ul li{
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all 1s ease-in-out;
+
+}
+.nav-bar ul li:hover{
+    background: #0e0e0e;
+}
+.nav-bar ul li a{
+    color:#fff;
+    transform: uppercase;
+}
+.nav-bar ul li a:hover{
+    text-decoration: underline;
+}
+/* social icon */
+.social-icons{
+    display: none;
+}
